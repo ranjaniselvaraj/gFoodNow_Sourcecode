@@ -1,0 +1,9 @@
+/*
+#attribute tr td,#shipping tr td,#discount tr td,#special tr td,#option tr td,#optionValue tr td { border-bottom: 1px solid #D5D5D5 !important; }
+#attribute,#shipping,#discount,#special,#option,#optionValue { border-bottom: none !important; }
+.tblBorderTop tr td { cursor:pointer; border-top: 1px solid #D5D5D5 !important;}
+.tblBorderTop tr.active td, .tblBorderTop tr.active td a { background-color:#7892EB;  color:#FFF !important; }
+.tblBorderTop tr.active td:first-child,.tblBorderTop tr.active td:first-child a { background-color:#F00;}
+.tblBorderTop tr.none td:first-child,.tblBorderTop tr.none td:first-child a { background-color:none !important;}
+*/
+.custom p { font-size:14px; }

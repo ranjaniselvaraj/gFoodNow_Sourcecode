@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="30px" viewBox="0 0 32 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Search Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="NewsFeed-Long" sketch:type="MSArtboardGroup" transform="translate(-148.000000, -69.000000)" stroke="#9B9B9B" stroke-width="2">
+            <g id="Group" sketch:type="MSLayerGroup">
+                <g id="Rectangle-167-+-Search-for-anyone-yo-+-Imported-Layers-4" transform="translate(120.000000, 49.000000)" sketch:type="MSShapeGroup">
+                    <path d="M48.0008279,24.0818942 C52.2025583,28.1878402 52.2025583,34.8486403 48.0008279,38.9584819 C43.7990975,43.0644279 36.9896953,43.0644279 32.7892978,38.9584819 C28.5875674,34.8486403 28.5875674,28.1878402 32.7892978,24.0818942 C36.9896953,19.9727019 43.7990975,19.9727019 48.0008279,24.0818942 L48.0008279,24.0818942 Z M57.82508,46.4535863 C58.3975283,47.0145505 58.3968618,47.9196246 57.8237471,48.478641 L57.718454,48.5812247 C57.1460057,49.1395918 56.2183596,49.1395918 55.6465777,48.5812247 L46.9012474,40.0271705 L49.0737519,37.90148 L57.82508,46.4535863 L57.82508,46.4535863 Z" id="Search-Icon" transform="translate(43.946000, 35.000000) scale(-1, 1) translate(-43.946000, -35.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+.headerwrap, .sidetabs > li.active > a:before, .searchwrap,.table_form input[type="submit"],.btn-primary,.radio .input-helper:after,.field_control.active .field_cover:after,.controlwrap .btngroup .themebtn.active,.tabs_nav > li > a.active:before,.tabs_nav_container.flat .tabs_nav > li > a.active,.centered_nav > li > a.active:before, .centered_nav > li > a:hover:before,.topwrap,.accordian_title.active:after,.accordians_container.flat .accordian_title{background: #607d8b;}
+
+.sidetabs > li.active > a:after{ border-bottom: 8px solid #607d8b;}
+.checkbox .input-helper:after{border-color: #607d8b;}
+.link{ color: #607d8b;}
+.leftmenu > li > a:hover{ color: #607d8b; border-left: 4px solid #607d8b;}
+.breadcrumb li a{ color: #607d8b;}
+.pagination li.selected a{background: #607d8b; border-color: #607d8b;}
+.controlwrap .btngroup .themebtn{border-color: #607d8b;color: #607d8b;}
+.color_pallete .pallete_control .icon{color: #607d8b;}
+.tabs_nav > li > a.active{color: #607d8b;}
+.tabs_nav > li > a.active:after, .tabs_nav > li > a.active:after,.centered_nav > li > a.active:after{ border-bottom: 8px solid #607d8b;}
+.tabs_nav_container.flat .tabs_nav > li > a.active:after{border-top: 8px solid #607d8b;}
+.tabs_nav_container.flat .tabs_nav{border-bottom-color: #607d8b;}
+.centered_nav > li > a.active{ color: #607d8b;}
+.leftmenu > li.active > a{ border-left: 4px solid #607d8b;color: #607d8b;}
+.accordian_title:before,.tooltip{ color: #607d8b;}
+
+
+

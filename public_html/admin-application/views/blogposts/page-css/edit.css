@@ -1,0 +1,37 @@
+ 
+.boxwraplist {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+}
+.boxlabel {
+    background: #ededed none repeat scroll 0 0;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px;
+    width: 100%;
+}
+.scrollerwrap {
+    height: 140px;
+    margin: 5px 0 0 10px;
+    overflow: auto;
+    padding: 0;
+}
+.verticalcheck_list {
+    margin: 0;
+}
+.verticalcheck_list li {
+    color: #999;
+    font-size: 12px;
+    line-height: 21px;
+    list-style: outside none none;
+    padding: 3px 0;
+}
+.sub-categories {
+    list-style: outside none none;
+}
+.verticalcheck_list label {
+    display: block;
+}

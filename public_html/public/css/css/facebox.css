@@ -1,0 +1,140 @@
+#facebox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	text-align: left;
+}
+#facebox .popup {
+	position: relative;
+}
+#facebox table {
+	border-collapse: collapse;
+}
+#facebox td {
+	border-bottom: 0;
+	/*padding: 0;*/
+}
+#facebox .body {
+	background: #fff;
+	max-width: 700px;
+	/* border:5px solid #1cb049; */
+	border-radius: 3px;
+	min-height: 300px !important;/*display:block;*/
+}
+#facebox .loading {
+	text-align: center;
+}
+#facebox .image {
+	text-align: center;
+}
+#facebox img {
+	border: 0;
+	margin: 0;
+}
+/* #facebox .footer {
+
+  border-top: 1px solid #DDDDDD;
+
+  padding-top: 5px;
+
+  margin-top: 10px;
+
+  text-align: right;
+
+} */
+
+#facebox_overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+.facebox_hide {
+	z-index: -100;
+}
+.facebox_overlayBG {
+	background-color: #000;
+	z-index: 1005;
+}
+#facebox .footer {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	margin: 0;
+}
+#facebox .close {
+	/* background:#ef2d24; */
+	width: 28px;
+	height: 26px;
+	position: relative;
+	border-radius: 0;
+	display: inline-block;
+	padding: 4px 0;
+	background:#fff; border-radius:50%; border:solid 1px #ccc;
+}
+#facebox .close img {
+	display: block!important;
+	width: 12px;
+	margin: 2px auto 0!important;
+}
+* html #facebox_overlay {
+	/* ie6 hack */
+	position: absolute; height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight: document.body.offsetHeight + 'px');
+}
+#facebox .body .content {
+	margin: 0;
+	padding: 25px;
+	position: relative;
+	/*  min-height:200px; border:1px solid #ccc;*/
+	box-sizing: border-box;
+	background: #fff;
+	z-index: auto;
+}
+/*
+#facebox .body .content:before {
+    left: 25px;
+    right: 25px;
+    position: absolute;
+    top: -6px;
+    content: "";
+    border-radius: 10px 10px 0 0;
+}
+
+#facebox .body .content:after {
+    left: 25px;
+    right: 25px;
+    position: absolute;
+    bottom: -6px;
+    content: "";
+    border-radius: 0 0 10px 10px;
+}
+*/
+
+#facebox.profile-popup .body {
+	min-width: 600px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+#facebox {
+	left: 0!important;
+	top: 0!important;
+	right: 0;
+	bottom: 0;
+}
+#facebox .body .content {
+	padding: 10px;
+}
+#facebox.profile-popup .body {
+	min-width: 280px!important;
+}
+#facebox.profile-popup .body .content {
+	padding: 10px;
+}
+#facebox table {
+	width: 100%!important;
+}
+}

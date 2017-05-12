@@ -1,0 +1,300 @@
+.pro-setup {
+}
+.pro-setup ul.resp-tabs-list {
+	width: 100%;
+	display: table;
+	margin: 0px;
+	padding: 0px;
+}
+.pro-setup .resp-tabs-list li {
+	border: solid 1px #dedddd;
+	border-right: none;
+	color: #545353;
+	background: #f1f0f0;
+	font-weight: 600;
+	font-size: 14px;
+	display: table-cell;
+	padding: 22px 15px;
+	margin: 0;
+	list-style: none;
+	cursor: pointer;
+	text-align: center;
+}
+.pro-setup .resp-tabs-list li:last-child {
+	border-right: solid 1px #dedddd;
+}
+.pro-setup .resp-tab-item.resp-tab-active {
+	background: #fff;
+	border-bottom: none;
+	margin-bottom: -1px;
+}
+.pro-setup .resp-tab-active {
+	border-bottom: none;
+	background-color: #fff;
+}
+.pro-setup .resp-tabs-list li i {
+	margin-right: 10px;
+	display: inline-block;
+}
+.pro-setup .resp-tabs-container {
+	padding: 0px;
+	background-color: #fff;
+	clear: left;
+}
+.pro-setup h2.resp-accordion {
+	cursor: pointer;
+	padding: 5px;
+	display: none;
+}
+.pro-setup .resp-tab-content {
+	display: none;
+	padding: 15px;
+}
+.pro-setup .resp-content-active, .pro-setup .resp-accordion-active {
+	display: block;
+}
+.pro-setup .resp-tab-content {
+	border: 1px solid #dedddd;
+	border-top: none;
+}
+.pro-setup h2.resp-accordion {
+	font-size: 13px;
+	border: 1px solid #dedddd;
+	border-top: 0px solid #dedddd;
+	margin: 0px;
+	padding: 10px 15px;
+}
+.pro-setup h2.resp-tab-active {
+	border-bottom: 0px solid #dedddd;
+	margin-bottom: 0px;
+	padding: 10px 15px;
+	color: #fff;
+}
+.pro-setup h2.resp-tab-title:last-child {
+	border-bottom: 12px solid #dedddd;
+	background: blue;
+}
+/*-----------Vertical tabs-----------*/
+
+.pro-setup .resp-arrow {
+	width: 0;
+	height: 0;
+	float: right;
+	margin-top: 3px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 12px solid #ff3a59;
+}
+.pro-setup h2.resp-tab-active span.resp-arrow {
+	border: none;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 12px solid #fff;
+}
+/*-----------Accordion styles-----------*/
+
+.pro-setup h2.resp-tab-active {
+	background: #ff3a59;
+}
+.pro-setup .resp-easy-accordion h2.resp-accordion {
+	display: block;
+}
+.pro-setup .resp-easy-accordion .resp-tab-content {
+	border: 1px solid #c1c1c1;
+}
+.pro-setup .resp-easy-accordion .resp-tab-content:last-child {
+	border-bottom: 1px solid #dedddd;
+}
+.pro-setup .resp-tab-content-active {
+	display: block;
+}
+.pro-setup h2.resp-accordion:first-child {
+	border-top: 1px solid #dedddd;
+}
+/**/
+
+.banks-tbs {
+	margin: 20px;
+}
+.banks-tbs a.view-more {
+	margin: 10px 0 00 0;
+	vertical-align: top;
+}
+.banks-tbs ul.resp-tabs-list {
+	width: auto;
+	display: inline-block;
+	margin: 0px 0 -5px 0;
+	padding: 0px;
+}
+.banks-tbs .resp-tabs-list li {
+	border: solid 1px #dedddd;
+	border-right: none;
+	color: #545353;
+	background: #f1f0f0;
+	font-weight: 600;
+	font-size: 14px;
+	display: table-cell;
+	padding: 8px 10px;
+	margin: 0;
+	list-style: none;
+	cursor: pointer;
+	text-align: center;
+}
+.banks-tbs .resp-tabs-list li:last-child {
+	border-right: solid 1px #dedddd;
+}
+.banks-tbs .resp-tab-item.resp-tab-active {
+	background: #fff;
+	border-bottom: none;
+	margin-bottom: -1px;
+}
+.banks-tbs .resp-tab-active {
+	border-bottom: none;
+	background-color: #fff;
+}
+.banks-tbs .resp-tabs-list li i {
+	margin-right: 10px;
+	display: inline-block;
+}
+.banks-tbs .resp-tabs-container {
+	padding: 0px;
+	background-color: #fff;
+	clear: left;
+}
+.banks-tbs h2.resp-accordion {
+	cursor: pointer;
+	padding: 5px;
+	display: none;
+}
+.banks-tbs .resp-tab-content {
+	display: none;
+	padding: 15px;
+}
+.banks-tbs .resp-content-active, .banks-tbs .resp-accordion-active {
+	display: block;
+}
+.banks-tbs .resp-tab-content {
+	border: 1px solid #dedddd;
+}
+.banks-tbs h2.resp-accordion {
+	font-size: 13px;
+	border: 1px solid #dedddd;
+	border-top: 0px solid #dedddd;
+	margin: 0px;
+	padding: 10px 15px;
+}
+.banks-tbs h2.resp-tab-active {
+	border-bottom: 0px solid #dedddd;
+	margin-bottom: 0px;
+	padding: 10px 15px;
+	color: #fff;
+}
+.banks-tbs h2.resp-tab-title:last-child {
+	border-bottom: 12px solid #dedddd;
+	background: blue;
+}
+/*-----------Vertical tabs-----------*/
+
+.banks-tbs .resp-arrow {
+	width: 0;
+	height: 0;
+	float: right;
+	margin-top: 3px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 12px solid #ff3a59;
+}
+.banks-tbs h2.resp-tab-active span.resp-arrow {
+	border: none;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 12px solid #fff;
+}
+/*-----------Accordion styles-----------*/
+
+.banks-tbs h2.resp-tab-active {
+	background: #ff3a59;
+}
+.banks-tbs .resp-easy-accordion h2.resp-accordion {
+	display: block;
+}
+.banks-tbs .resp-easy-accordion .resp-tab-content {
+	border: 1px solid #c1c1c1;
+}
+.banks-tbs .resp-easy-accordion .resp-tab-content:last-child {
+	border-bottom: 1px solid #dedddd;
+}
+.banks-tbs .resp-tab-content-active {
+	display: block;
+}
+.banks-tbs h2.resp-accordion:first-child {
+	border-top: 1px solid #dedddd;
+}
+
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+
+@media only screen and (max-width: 768px) {
+.pro-setup ul.resp-tabs-list {
+	display: none;
+}
+.pro-setup h2.resp-accordion {
+	display: block;
+}
+.pro-setup .resp-accordion-closed {
+	display: none !important;
+}
+#paymenttab ul.resp-tabs-list {
+	display: block;
+}
+#paymenttab h2.resp-accordion {
+	display: block;
+	color: #545353;
+	font-size: 14px;
+	font-weight: 600;
+}
+#paymenttab h2.resp-tab-active {
+	color: #fff;
+}
+#paymenttab h2.resp-accordion i {
+	margin-right: 10px;
+}
+#paymenttab .resp-accordion-closed {
+	display: none !important;
+}
+.banks-tbs {
+	margin: 10px;
+}
+.banks-tbs a.view-more {
+	float: none;
+	margin: 0;
+}
+.banks-tbs .resp-tabs-container {
+	padding-top: 10px;
+}
+.banks-tbs ul.resp-tabs-list {
+	display: none;
+}
+.banks-tbs h2.resp-accordion {
+	display: block;
+}
+.banks-tbs .resp-accordion-closed {
+	display: none !important;
+}
+#paymenttab ul.resp-tabs-list {
+	display: block;
+}
+#paymenttab .resp-tabs-list li {
+	display: block;
+	text-align: left;
+	width: auto;
+}
+.payment_tabs {
+	width: auto;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+.banks-tbs {
+	margin: 0 20px;
+}
+}

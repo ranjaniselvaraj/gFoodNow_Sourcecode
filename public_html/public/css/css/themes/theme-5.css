@@ -1,0 +1,109 @@
+/* first color */
+
+a:hover {
+	color: #007dc6;
+}
+a {
+	color: #007dc6;
+}
+/*background-color*/
+
+.checkout-panel.done .title-bar:before {
+	background-color:#14c06e
+}
+/*background*/
+
+.main-nav-bar.open, .nav, .category-nav li.resp-tab-active, .other-carousel .owl-page.active, a.btn, button.btn, .siteForm input[type="submit"], .siteForm input[type="reset"], .siteForm input[type="button"], .siteForm button[type="button"], .siteForm button[type="file"], .btn-submit, a.actions, a.btn.red, button.red, .nav li .sub_menu .buttonNormal, .dash-nav li a .count, .price-red, .greyarea .grid_2 input[type="submit"], .coupons-nav h2, .cpn-box .coupon-code, .tabz li.active, .tabz li:hover, .smallthumbs li .boxblue, .tbl-email .actions a.active, .tbl-email .actions a.active:hover, .myaccount .listing-account-nav, .nav li:hover .span_parent, .nav li li.hover .sub_menu, .burger li, .myaccount a.clickme span:before, .myaccount a.clickme span:after, .cl-effect-21 a:before, .cl-effect-21 a:after, .squareBoxes li .boxblue:hover, .review-progress li .pro-bar span.fill, .textcontainer .photoround, .testimonialTop:after, .blackbullets li a:hover:before, .category-count .item .num, .top-seller-list .seller:hover .pro-desc, .brands-list .item.link a:hover, .our-sale .category-box .item.red, .fixed-demo-btn, .cart-tbl .pro-image .tip, .red-links li a, .borderframe:before, .borderframe:after, .actions a.btn:hover, input.actions, button.actions, a.btn.blue:hover, a.added-btn:hover, .wallet-btn .btn, .liked-shop li a:hover, .main-category h2.resp-tab-active, .numberCircle, #back-top a, .fav li.sell_with_sitename a, .vertical_links li ul li a:hover:before, .discount-code form input[type="submit"]  {
+	background: #007dc6;
+}
+/*text color*/
+
+.category-nav li:hover, .category-nav li.active, .contact-here .contact span, .fav li.active a, .shortnav li a:hover, .shop-list .shop-item .price .price-new, .cmsContainer h5, .dash-nav li a:hover, .dash-nav li.active a, .cart-tbl .price, .red-txt, .groupbox .collectiontitle a, .groupbox .itemprice, .groupbox .itemname a:hover, .steps-links ul li a span.s-name, .product-name-red, .product-name-red a, .nav li .sub_menu .col li a:hover, .tbl-email tr.unread td .email-txt span, .collectionbox .collectiontitle, .leftLinks li a.selectedlink, .f-cell ul li a:hover, .nav li .sub_menu .col li.firstli a, .review-write a:hover, .review-write a.active, .sucessarea h3 strong, .textcontainer .testiname, .sitemapcontainer h3, .blackbullets li a:hover, a.view-more.red, .sale-category li a:hover, .steps-links ul li a span.s-no, .orders-list a.manage-order, .sectioncenter h3 span, .cmsContainer p a, .shop-list .shop-item:hover .price a, .actuall-price, .detailList .postedname a, a.arrow-link:hover, .all-address .repeat strong span, .all-address .repeat strong span, /*.shortnav li span,*/ .accordion-toggle.open, .accordion-toggle.open:hover, .vertical_links li ul li a:hover, .rating li.active svg path, .checkout-panel .address-short, #paymenttab .resp-tabs-list li.resp-tab-active a, .amount-desc li.total, .your-cart .head-name span, .bag-item .price, .order-summary ul li.wallet .pull_right {
+	color: #007dc6;
+}
+/*fill color*/
+
+.fav li.active a svg path, .dash-nav li a:hover i svg path, .dash-nav li a:hover i svg rect, .dash-nav li a:hover i svg ellipse, .dash-nav li a:hover i svg polygon, .dash-nav li a:hover i svg circle, .dash-nav li.active a i svg path, .dash-nav li.active a i svg rect, .dash-nav li.active a i svg ellipse, .dash-nav li.active a i svg polygon, .dash-nav li.active a i svg circle, .reviewlist li svg path, .rating li svg path, .review-write a:hover svg, .review-write a.active svg, a.arrow-link:hover, .rating li.active svg path {
+	fill: #007dc6;
+}
+/*border color*/
+
+.steps-links ul li span.tick, .from-wallet.active, .tbl-email .actions a.active, .tbl-email .actions a.active:hover, .collectionbox:hover, .leftLinks li a.selectedlink, .textcontainer .photoround img, .top-seller-list .seller .image, a.view-more.red, .top-seller-list .seller:hover, .steps-links ul li a span.s-no, #paymenttab .resp-tabs-list li.resp-tab-active, .discount-code form {
+	border-color: #007dc6;
+}
+/*border-bottom color*/
+
+#slide-animation .resp-tabs-list li.resp-tab-active {
+	border-bottom-color: #007dc6;
+}
+/*border-top color*/
+
+.tabz li.active:after, .main-category .resp-arrow, .listcontainer {
+	border-top-color: #007dc6;
+}
+/*bg images*/
+
+.countpreview {
+	background: rgba(0, 157, 220, 0.8);
+}
+#cart:before {
+	background: url(../images/themes/theme-5/retina/cart.svg) no-repeat 0 0;
+	background-size: 100% auto;
+}
+.listButton.activebtn {
+	background: url(../images/themes/theme-5/list_icon.png) no-repeat 0px -48px;
+}
+.shop-list .shop-item .overlay a.favourite.active {
+	background: url(../images/themes/theme-5/retina/heart02.svg) no-repeat 0 0;
+}
+/*white text color*/
+
+.category-nav li.resp-tab-active {
+	color: #fff;
+}
+#slide-animation .resp-tabs-list li.resp-tab-active {
+	background: #fff;
+}
+
+
+/*mobile*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+ a.menu-dashboard span, a.menu-dashboard span::before, a.menu-dashboard span:after, .myaccount a.clickme span, .main-category h2.resp-tab-active, .nav > li.hover > .sub_menu, .nav li li.hover .sub_menu, .nav li .sub_menu .buttonNormal:hover, .cart a span {
+ background: #007dc6;
+}
+ .nav li .sub_menu .col li.firstli a, .main-category h2.resp-tab-active {
+ color: #fff;
+}
+ .main-category .resp-arrow {
+ border-top-color: #007dc6;
+}
+ .search-triger a span.icon-search {
+ background: url(../images/themes/theme-5/retina/search.svg) no-repeat center;
+ background-size: 20px auto;
+}
+ .cart a {
+ background: url(../images/themes/theme-5/retina/cart.svg) no-repeat left center;
+ background-size: 23px auto;
+}
+}
+
+
+/*tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+/* second color #eaeaea*/
+
+#slide-animation .resp-tabs-list li, .product-thumb .lable, .yellow-bar, button.btn.blue:hover, .shop-list .shop-item .lable {
+	background: #ffc120;
+}
+.product-thumb .lable:after {
+	border-right-color: #ffc120;
+}
+.shop-list .shop-item .lable:after {
+	border-left-color: #ffc120;
+}
+a.btn.blue, .cart-button a.btn.blue, a.added-btn {
+	background: #007dc6;
+}

@@ -1,0 +1,10 @@
+@media print {
+	html, body {
+		width: auto;
+		height: 297mm;        
+	}
+	a[href]:after {
+	   content: none !important;
+	}
+	@page { size: A4; }
+}

@@ -1,0 +1,20 @@
+.headerwrap, .sidetabs > li.active > a:before, .searchwrap,.table_form input[type="submit"],.btn-primary,.radio .input-helper:after,.field_control.active .field_cover:after,.controlwrap .btngroup .themebtn.active,.tabs_nav > li > a.active:before,.tabs_nav_container.flat .tabs_nav > li > a.active,.centered_nav > li > a.active:before, .centered_nav > li > a:hover:before,.topwrap,.accordian_title.active:after,.accordians_container.flat .accordian_title{background: #ff5722;}
+
+.sidetabs > li.active > a:after{ border-bottom: 8px solid #ff5722;}
+.checkbox .input-helper:after{border-color: #ff5722;}
+.link{ color: #ff5722;}
+.leftmenu > li > a:hover{ color: #ff5722; border-left: 4px solid #ff5722;}
+.breadcrumb li a{ color: #ff5722;}
+.pagination li.selected a{background: #ff5722; border-color: #ff5722;}
+.controlwrap .btngroup .themebtn{border-color: #ff5722;color: #ff5722;}
+.color_pallete .pallete_control .icon{color: #ff5722;}
+.tabs_nav > li > a.active{color: #ff5722;}
+.tabs_nav > li > a.active:after, .tabs_nav > li > a.active:after,.centered_nav > li > a.active:after{ border-bottom: 8px solid #ff5722;}
+.tabs_nav_container.flat .tabs_nav > li > a.active:after{border-top: 8px solid #ff5722;}
+.tabs_nav_container.flat .tabs_nav{border-bottom-color: #ff5722;}
+.centered_nav > li > a.active{ color: #ff5722;}
+.leftmenu > li.active > a{ border-left: 4px solid #ff5722;color: #ff5722;}
+.accordian_title:before,.tooltip{ color: #ff5722;}
+
+
+

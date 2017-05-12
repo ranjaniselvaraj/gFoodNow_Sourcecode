@@ -1,0 +1,310 @@
+html, body {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	background: url(../images/bg-sell.jpg) no-repeat center;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.sell-area {
+}
+.checkout-header {
+	background: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	display: block;
+	/*border-bottom:solid 1px #d1d4d6;*/ box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.checkout-header #logo {
+	padding: 10px;
+}
+.right-info {
+	float: right;
+}
+.trust-banners {
+	float: left;
+}
+.trust-banners li {
+	border-left: solid 1px #e2e5e7;
+	display: table-cell;
+	vertical-align: top;
+	padding: 15px;
+}
+/*
+.trust-banners li:first-child {
+	border-left: none;
+}*/
+.trust-banners li .svg-icn {
+	float: left;
+	margin-right: 5px;
+}
+.trust-banners li .svg-icn svg {
+	width: 30px;
+	height: 30px;
+}
+.trust-banners li .svg-icn svg path, .trust-banners li .svg-icn svg polygon {
+	fill: #75787a;
+}
+.trust-banners li p {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 1.2;
+}
+#main-area {
+	padding: 64px 0 20px 0;
+	clear: both;
+}
+.bg-sell {
+	padding: 0;
+}
+.sell-form {
+}
+.sell-form .siteForm input[type="submit"] {
+	text-transform: uppercase;
+}
+.sell-form h3 {
+	color: #313131;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.2;
+}
+.sell-form h4 {
+	color: #313131;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.2;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.sell-form h4 span {
+	color: #666666;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 1.2;
+	display: block;
+}
+.sell-form p {
+	line-height: 1.6;
+}
+.seller-steps {
+}
+.seller-steps ul {
+	display: table;
+	width: 100%;
+	padding: 10px 0 10px 0;
+}
+.seller-steps ul li {
+	color: #9b9b9b;
+	font-size: 13px;
+	display: table-cell;
+	padding: 20px 0 30px 0;
+	vertical-align: middle;
+	width: auto;
+	text-align: center;
+	position: relative;
+	height: 40px;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+.seller-steps ul li a {
+	color: #9b9b9b;
+}
+.seller-steps ul li:after {
+	background: #e6e7ee;
+	height: 1px;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.seller-steps ul li.compeleted a, .seller-steps ul li.active a {
+	color: #41b649;
+	font-weight: 600;
+	font-size: 14px;
+}
+.seller-steps ul li.active:after {
+	background: #41b649;
+	height: 3px;
+	bottom: -1px;
+}
+.seller-steps ul li.active a {
+	color: #ff3a59;
+	font-size: 14px;
+}
+.seller-steps ul li.active:after {
+	background: #ff3a59;
+}
+.seller-steps ul li.compeleted a {
+	position: relative;
+}
+.seller-steps ul li.compeleted a:after {
+	background: url(../images/retina/tick-green.svg) no-repeat 0 0;
+	width: 16px;
+	height: 16px;
+	background-size: cover;
+	display: inline-block;
+	content: "";
+	position: absolute;
+	right: -25px;
+	top: 4px;
+}
+.steps-frm {
+	padding: 30px;
+}
+.page-message {
+	padding: 15px;
+	line-height: 1.6;
+	font-size: 14px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 110px 0;
+}
+.page-message p {
+	padding-bottom: 20px;
+}
+.seller-page {
+	max-width: 1020px;
+}
+.seller-page h2 {
+	color: #000000;
+	font-size: 35px;
+	font-weight: 600;
+	padding: 27px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.seller-row {
+	display: table;
+	width: 100%;
+	vertical-align: middle;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+}
+.seller-row .seller-left, .seller-row .seller-right {
+	vertical-align: middle;
+	display: table-cell;
+}
+.seller-row .seller-right {
+	background: rgba(255, 255, 255, 0.95);
+}
+.seller-row .seller-left {
+	border-right: solid 1px rgba(0, 0, 0, 0.05);
+	background: #ccc;
+	width: 380px;
+	background: rgba(255, 255, 255, 0.5);
+}
+.seller-row .seller-left h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	vertical-align: top;
+}
+.slogan {
+	margin: 0 40px;
+}
+.slogan .svg-icn {
+	margin: 0px auto;
+	text-align: center;
+}
+.slogan .svg-icn svg {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+.slogan h3 {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.slogan ul {
+	padding-bottom: 25px;
+}
+.slogan ul li {
+	color: #000;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	position: relative;
+	padding-top: 5px;
+	padding-left: 12px;
+}
+.slogan ul li:before {
+	background: #000;
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	width: 5px;
+	height: 5px;
+	content: "";
+	display: block;
+	border-radius: 50%;
+}
+
+/**mobile*/
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+.checkout-header #logo {
+	float: none;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+.right-info {
+	display: none;
+}
+#content {
+	margin-right: 0;
+}
+#main-area {
+}
+.bg-sell {
+	padding: 10px;
+}
+.seller-page h2 {
+	font-size: 24px;
+}
+.seller-row {
+	display: block;
+	width: auto;
+}
+.seller-row .seller-left, .seller-row .seller-right {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	border-right: none;
+}
+.sell-form {
+}
+.seller-steps ul {
+	padding: 0;
+}
+.seller-steps ul li {
+	display: block;
+}
+.sell-form h3 {
+	font-size: 18px;
+}
+}
+
+
+/**tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.sell-form {
+	margin: 0 auto;
+}
+.seller-row .seller-left {
+	width: 260px;
+}
+}

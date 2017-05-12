@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^preview/(.*)$ index.php?url=$1 [PT,L,QSA]
+
+RewriteCond %{QUERY_STRING} ^page=(.*)$
+RewriteRule (manager|setup)/(.*) $1/index.php?url=$2/%1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(manager|setup)/(.*)$ $1/index.php?url=$2 [PT,L,QSA]
+
+RewriteCond %{QUERY_STRING} ^page=(.*)$
+RewriteRule (.*) index.php?url=$1/%1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [PT,L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [PT,L,QSA,B]
+</IfModule>
+

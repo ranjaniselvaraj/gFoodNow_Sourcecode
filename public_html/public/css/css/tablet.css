@@ -1,0 +1,507 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.img-responsive img, img.img-responsive {
+	max-width: -moz-fit-content;
+	max-width: -webkit-fit-content;
+	width: 100%;
+	height: auto;
+}
+.fixed-container {
+	max-width: none;
+	width: auto;
+	padding: 0 10px;
+}
+.container {
+	width: auto;
+}
+#slide-animation img {
+	width: 100%;
+	height: auto;
+}
+.note {
+	display: none;
+	font-size: 11px;
+}
+#search form {
+	width: 170px;
+}
+#search form input[type="text"] {
+	width: calc(100% - 46px);
+	border-right: none;
+}
+#search form select {
+	display: none;
+}
+.nav li {
+	width: 15.8%;
+}
+.nav li a {
+	padding: 10px 6%;
+}
+.other-carousel {
+	text-align: center;
+}
+.adds img {
+	width: 100%;
+}
+.f-cell {
+	width: 17%;
+}
+.f-cell.last {
+	width: 31%;
+}
+.contact-here .contact {
+	padding: 10px;
+	font-size: 15px;
+}
+.contact-here .contact.social {
+	text-align: right;
+}
+.contact-here .contact > img {
+	margin-right: 10px;
+}
+.contact-here .contact span.under-txt {
+	font-size: 13px;
+}
+footer.footer .social h3 {
+/*
+ display: none;*/
+
+}
+footer.footer .social ul {
+	float: none;
+}
+.f-logo img {
+	max-width: 100%;
+}
+.f-cell.first {
+	display: none;
+	margin-right: 0;
+}
+.f-cell {
+	width: 20%;
+}
+.ft-bttm-left {
+	float: none;
+	margin-right: 0;
+	width: auto;
+}
+.ft-bttm-right {
+	float: none;
+	width: auto;
+}
+.newsletter-form input[type="text"] {
+	width: calc(100% - 87px);
+}
+.dashboard .left-data {
+	width: auto;
+}
+.dash-nav li {
+	padding: 0 20px 0 10px;
+}
+.arrowTabs li a {
+	font-size: 13px;
+	padding: 0 12px;
+}
+.featured-product {
+	width: 793px;
+}
+.fashion-layout {
+	width: calc(100% - 150px);
+	float: left;
+}
+.fashion-layout .fashion-thumb {
+	width: 33.3333333%;
+}
+.shop-page .left-panel {
+	width: 200px;
+	margin-bottom: 25px;
+}
+.shop-page .left-panel h3 {
+	padding: 15px 10px;
+}
+.filters {
+	float: none;
+	clear: both;
+}
+.filters ul li a {
+	display: inline-block;
+	margin: 10px;
+}
+.filters ul li:first-child a {
+	margin-left: 0;
+}
+.shop-page .product-filter {
+	float: left;
+	width: 200px;
+}
+.shop-page .right-panel {
+	float: right;
+	width: calc(100% - 220px);
+}
+.checkout-steps {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: none;
+}
+.checkout-steps .step {
+	min-width: inherit;
+	display: table-cell;
+	text-align: center;
+}
+.checkout-steps .step .icon {
+	margin: 0;
+}
+.all-address .repeat {
+	padding: 10px;
+}
+.all-address .repeat a.deliver-btn {
+	margin: 0 auto;
+}
+.all-address .repeat a.deliver-btn {
+	border-radius: 2px;
+}
+.all-address .repeat a.deliver-btn:after {
+	display: none;
+}
+.form-block a.fb-color, .form-block a.tw-color, .form-block a.gp-color {
+	min-width: 150px;
+}
+.remember {
+	color: #000;
+	display: block;
+}
+.button-div {
+	text-align: center;
+}
+/***/
+
+.tablet-way {
+	display: block;
+}
+.myorder-form .siteForm input[type="text"], .myorder-form .siteForm select {
+	width: 49%;
+}
+.siteForm.ondark input, .siteForm.ondark select {
+	margin-bottom: 5px;
+}
+.siteForm.ondark input[type="submit"], .siteForm.ondark input[type="reset"], .siteForm.ondark a.btn {
+	width: 100%;
+}
+.divider {
+	margin: 13px 0;
+}
+.siteForm input.form-submit {
+	display: block;
+	margin: 10px 0;
+	float: none;
+	width: 150px;
+}
+.siteForm table td {
+	display: block;
+	padding: 5px 0;
+	width: 100%;
+}
+.shop-header {
+	height: auto;
+}
+.shop-header .img img {
+	max-width: -moz-fit-content;
+	max-width: -webkit-fit-content;
+	width: 100%;
+	height: auto;
+}
+.greyarea .grid_2 input[type="text"].normal {
+	width: 100%;
+}
+.greyarea .grid_2 .secure {
+	margin: 10px 0;
+}
+.tabz-dashboard {
+}
+.tabz-dashboard .tabz-ul {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: -50px;
+	display: table;
+}
+.tabz-dashboard .tabz-ul li a {
+	padding: 12px 13px;
+}
+.orders-list {
+	padding: 0 20px;
+}
+.orders-list li {
+	margin: 0;
+	width: 49%;
+	float: left;
+	margin-bottom: 15px;
+}
+.orders-list li:nth-child(2) {
+	float: right;
+}
+.orders-list li:last-child {
+	float: right;
+}
+.blockrow {
+	padding: 10px 0;
+	margin: 0 0 0 -10px;
+}
+.listblock {
+	float: left;
+	margin: 15px 0;
+	padding: 0 10px;
+	position: relative;
+	width: 33.333%;
+}
+.sectionsearch input[type="text"] {
+	width: calc(100% - 119px);
+}
+.right-elemnts {
+	padding: 0 20px;
+}
+.shop-left .brand-name span {
+	display: block;
+}
+.short-links li {
+	display: block;
+	text-align: right;
+}
+.mycredits .crr-blnc {
+	margin-bottom: 9px;
+}
+.mycredits .highlighted_text, .mycredits a {
+	padding: 7px 10px;
+}
+#frmCreditsWalletForm td {
+	display: inline-block;
+	width: auto;
+	padding: 0;
+}
+.total-stat .small-box .caption {
+}
+.repeatedRow .grid_1, .repeatedRow .grid_2 {
+	display: block;
+	float: none;
+	width: auto;
+}
+.repeatedRow .grid_1 .grid_3 {
+	float: none;
+	width: auto;
+	margin: 10px 0;
+	display: block;
+}
+.repeatedRow .grid_1 .grid_4 {
+	margin: 10px 0;
+	float: none;
+	width: auto;
+	display: block;
+}
+.repeatedRow .grid_1 .removelink {
+	display: block;
+}
+.repeatedRow .grid_2 .squareBoxes {
+	float: none;
+}
+.squareBoxes li {
+	padding: 0 10px 0 0px;
+}
+.latest-review .item .from .pic {
+	float: none;
+}
+.latest-review .item .from .name h5 {
+	height: auto;
+}
+.latest-review .item .from .name {
+	float: none;
+}
+.reviewList .grid_1 {
+	width: 65px;
+}
+.reviewList .grid_2 {
+	width: calc(100% - 90px);
+}
+.items-list {
+	display: none;
+}
+.liked-shop {
+	display: block;
+}
+.address-box {
+	width: calc(100% - 234px);
+}
+.address-box .address {
+	border-right: none;
+	border-bottom: 1px solid #dedddd;
+	width: auto;
+	display: block;
+}
+.address-box .address-links {
+	display: block;
+	padding: 10px;
+	text-align: center;
+}
+.address-box .address-links a {
+	display: inline-block;
+	padding: 15px 15px;
+}
+.withdraw-box {
+	width: 234px;
+}
+a.status {
+	white-space: nowrap;
+	display: inline-block;
+	margin: 2px 0;
+}
+.fourCols li {
+	margin: 2%;
+	width: 46%;
+}
+.fourthumbs {
+	height: auto;
+}
+.fourthumbs .thumbsquare {
+	display: inline-block;
+	text-align: center;
+	float: none;
+}
+/***/
+
+.testimonialTop h2 {
+	font-size: 30px;
+}
+.listwrap:before {
+	width: 35px;
+	height: 35px;
+	background-size: 75%;
+}
+.listparts li.leftLi .listwrap:before {
+	right: -16.5%;
+}
+.listparts li.rightLi .listwrap:before {
+	left: -16.5%;
+}
+.textcontainer p {
+	font-size: 14px;
+	line-height: 22px;
+	min-height: 100%;
+}
+/***/
+
+.collection_box {
+	width: 100%;
+}
+.main-category .resp-tab-content {
+}
+.shop-list .shop-item .over-btn-grp {
+	display: none;
+}
+.shop-list .shop-item {
+	min-height: inherit;
+	margin: 0;
+}
+.checkout-steps-new .fixed-container {
+	padding: 0;
+}
+.steps-links ul li a span.s-name {
+	font-size: 13px;
+}
+.right-side a.btn {
+	padding: 7px 12px;
+}
+.two-boxs {
+	display: block;
+	width: auto;
+}
+.address-box {
+	float: none;
+	width: auto;
+}
+.address-border {
+	margin: 0 20px;
+}
+.thumbsfour .thumbsquare {
+	width: 47%;
+}
+.tbl-normal th {
+	padding: 10px;
+}
+.threeCols li {
+	width: 50%;
+}
+.threeCols li:nth-child(3n+4) {
+	clear: none;
+}
+.tbl-dashboard .tbl-left {
+	display: block;
+	border-right: none;
+	border-bottom: 1px solid #dedddd;
+	width: auto;
+}
+.tbl-dashboard .tbl-right {
+	width: auto;
+	display: block;
+}
+.all-address .repeat {
+	width: auto;
+	margin-right: 0;
+	display: block;
+}
+.tbl-listing table td, .tbl-listing table th {
+	padding: 15px 10px;
+}
+/* empty page css */    
+
+.banner-add .add-row .small, .banner-add .add-row .big {
+	display: table-cell;
+	float: none;
+	vertical-align: top;
+	width: auto;
+}
+.banner-add .add-row img {
+	height: auto;
+	max-width: -moz-fit-content;
+	width: 100%;
+}
+.empty-listing.option-2 li {
+	width: 50%;
+}
+.shop-list .shop-item .caption .name {
+	height: 40px;
+	overflow: hidden;
+}
+.discount-area {
+	float: none;
+	width: auto;
+}
+.coupon-list .coupon-item:nth-child(2n) {
+	float: none;
+}
+.section-industry {
+	height: auto;
+}
+table.optionValue td {
+	display: table-cell;
+	padding: 10px;
+}
+table.optionValue .note {
+	display: table-cell;
+	text-align: left;
+}
+.section-tools .price:before, .section-tools .price:after {
+	content: normal;
+}
+.siteForm table td {
+	width: auto;
+}
+
+.siteForm.form-double-cell table td{ display:table-cell;}
+}
+ @media only screen and (min-width: 800px) and (max-width: 1024px) {
+.listparts li.leftLi .listwrap:before {
+	right: -15.5%;
+}
+.listparts li.rightLi .listwrap:before {
+	left: -15.5%;
+}
+}

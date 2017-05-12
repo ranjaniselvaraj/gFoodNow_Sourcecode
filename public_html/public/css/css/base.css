@@ -1,0 +1,437 @@
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics 
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Open Sans', sans-serif;
+	line-height:normal;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%; 
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* #Basic Styles
+================================================== */
+	body {
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+	color: #181818;
+	font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-weight: inherit;
+}
+.subheader {
+	color: #777;
+}
+p {
+}
+p img {
+	margin: 0;
+}
+p.lead {
+	font-size: 21px;
+	color: #777;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+	color: #333;
+}
+small {
+	font-size: 80%;
+}
+/*	Blockquotes  */
+	blockquote, blockquote p {
+	font-size: 17px;
+	line-height: 24px;
+	color: #777;
+	font-style: italic;
+}
+blockquote {
+	margin: 0 0 20px;
+	padding: 9px 20px 0 19px;
+	border-left: 1px solid #ddd;
+}
+blockquote cite {
+	display: block;
+	font-size: 12px;
+	color: #555;
+}
+blockquote cite:before {
+	content: "\2014 \0020";
+}
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
+	color: #555;
+}
+hr {
+	border: solid #ddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 10px 0 30px;
+	height: 0;
+}
+/* #Links
+================================================== */
+a, a:visited {
+	line-height:normal;
+	color: #333;
+	text-decoration: none;
+	outline: 0;
+ -webkit-transition: all ease .3s;
+ -moz-transition: all ease .3s;
+ -o-transition: all ease .3s;
+ transition: all ease .3s;
+}
+a:hover, a:focus, :hover {
+-webkit-transition: all ease .3s;
+ -moz-transition: all ease .3s;
+ -o-transition: all ease .3s;
+ transition: all ease .3s;
+	color: #000;
+}
+p a, p a:visited {
+	line-height: inherit;
+}
+/* #Lists
+================================================== */
+ul, ol {
+	margin-bottom:0px;
+}
+ul {
+	list-style: none outside;
+}
+ol {
+	list-style: decimal;
+}
+ol, ul.square, ul.circle, ul.disc {
+}
+ul.square {
+	list-style: square outside;
+}
+ul.circle {
+	list-style: circle outside;
+}
+ul.disc {
+	list-style: disc outside;
+}
+ul ul, ul ol, ol ol, ol ul {
+	margin:0px;
+	font-size: 90%;
+}
+ul ul li, ul ol li, ol ol li, ol ul li {
+	margin-bottom: 0px;
+}
+li {
+}
+ul.large li {
+	line-height: 21px;
+}
+li p {
+	line-height: 21px;
+}
+/* #Images
+================================================== */
+
+	img.scale-with-grid {
+	max-width: 100%;
+	height: auto;
+}
+/* #Misc
+================================================== */
+.remove-bottom {
+	margin-bottom: 0;
+}
+.half-bottom {
+	margin-bottom: 10px;
+}
+.add-bottom {
+	margin-bottom: 20px;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.fn {
+	float:none;
+}
+.aligncenter {
+	margin:0 auto;
+	text-align:center;
+}
+.gap {
+	height:15px;
+	clear: both;
+}
+.hide {
+	display: none;
+}
+.hidden {
+	display: none;
+}
+.inviso {
+	display: none;
+}
+.highlighted {
+	color: #211922;
+	background-color: #ff0;
+}
+.error {
+	font-size: 18px;
+	font-weight: 300;
+	color: #f00;
+}
+.noFloat {
+	float: none;
+}
+.noState:hover {
+	background-color: transparent;
+}
+.noState:active {
+	color: #221919;
+}
+.noBorder {
+	border-width: 0;
+}
+.noBorderTop {
+	border-top-width: 0;
+}
+.noBorderRight {
+	border-right-width: 0;
+}
+.noBorderBottom {
+	border-bottom-width: 0;
+}
+.noBorderLeft {
+	border-left-width: 0;
+}
+.noMargin {
+	margin: 0;
+}
+.noMarginTop {
+	margin-top: 0;
+}
+.noMarginRight {
+	margin-right: 0;
+}
+.noMarginBottom {
+	margin-bottom: 0;
+}
+.noMarginLeft {
+	margin-left: 0;
+}
+
+
+
+
+
+.nopadding {
+	padding: 0;
+}
+.nopaddingTop {
+	padding-top: 0;
+}
+.nopaddingRight {
+	padding-right: 0;
+}
+.nopaddingBottom {
+	padding-bottom: 0;
+}
+.nopaddingLeft {
+	padding-left: 0;
+}
+
+
+
+
+.noBackground {
+	background:none;
+}
+.fixed {
+	position: fixed;
+}
+.invisible {
+	visibility: hidden;
+}
+.red {
+	color: red;
+}
+.noscroll {
+	overflow: hidden;
+}
+.clearfix {
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+/* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.shadow {
+	-o-box-shadow:0px 0px 3px rgba(0, 0, 0, 0.5);
+	-icab-box-shadow:0px 0px 3px rgba(0, 0, 0, 0.5);
+	-khtml-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0px 0px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+.innershadow {
+	-o-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+	-icab-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+	-khtml-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow:inset0px 0px 3px rgba(0, 0, 0, 0.5);
+	box-shadow:inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+.button, .button:link, .button:visited {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	-moz-border-radius:.25em;
+	border-radius:.25em;
+	box-shadow:0 1px 0 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+	background-color:#43a6e2;
+	background-color:#277ac1;
+	background-repeat:repeat-x;
+	background-image:-webkit-linear-gradient(top, #43a6e2, #277ac1);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#43a6e2', endColorstr='#277ac1', GradientType=0)";
+	background-image:linear-gradient(to bottom, #43a6e2, #277ac1);
+	color:#fff;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 10px;
+	line-height:1.1;
+	text-decoration:none;
+	min-width:80px;
+	border:0;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+	font-family:'Open Sans', 'Droid Arabic Naskh', 'Mplus Fulah', sans-serif;
+-webkit-transition:all linear .25s;
+-moz-transition:all linear .25s;
+-o-transition:all linear .25s;
+-ms-transition:all linear .25s;
+transition:all linear .25s
+}
+.button:hover, .button:link:hover, .button:visited:hover, .button.hover, .button:link.hover, .button:visited.hover, .button:focus, .button:link:focus, .button:visited:focus, .button.focus, .button:link.focus, .button:visited.focus {
+	-webkit-box-shadow:0 1px 0 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.3), inset 0 12px 24px 2px #38a9ed;
+	-moz-box-shadow:0 1px 0 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.3), inset 0 12px 24px 2px #38a9ed;
+	box-shadow:0 1px 0 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.3), inset 0 12px 24px 2px #38a9ed;
+	color:#fff;
+	text-decoration:none;
+-webkit-transition:all linear .25s;
+-moz-transition:all linear .25s;
+-o-transition:all linear .25s;
+-ms-transition:all linear .25s;
+transition:all linear .25s
+}
+.button:focus, .button:link:focus, .button:visited:focus, .button.focus, .button:link.focus, .button:visited.focus {
+	outline-color:#484848;
+	-webkit-box-shadow:0 1px 0 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.3), inset 0 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
+	-moz-box-shadow:0 1px 0 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.3), inset 0 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
+	box-shadow:0 1px 0 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.3), inset 0 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4)
+}
+.button:active, .button:link:active, .button:visited:active, .button.active, .button:link.active, .button:visited.active {
+	-webkit-box-shadow:inset 0 2px 0 0 rgba(0, 0, 0, 0.2), inset 0 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0 0 2px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:inset 0 2px 0 0 rgba(0, 0, 0, 0.2), inset 0 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0 0 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow:inset 0 2px 0 0 rgba(0, 0, 0, 0.2), inset 0 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0 0 2px 2px rgba(0, 0, 0, 0.2);
+	color:#fff;
+	text-decoration:none;
+-webkit-transition:all linear .25s;
+-moz-transition:all linear .25s;
+-o-transition:all linear .25s;
+-ms-transition:all linear .25s;
+transition:all linear .25s
+}
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/../fonts/FontName.eot');
+	    src: url('../fonts/../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/../fonts/FontName.woff') format('woff'),
+	         url('../fonts/../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+}

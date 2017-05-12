@@ -1,0 +1,198 @@
+:hover {
+/*color: var(--main-theme-color-1);*/}
+a {
+	color: var(--main-theme-color-1);
+}
+/*background*/
+.mobile-filter > ul {
+	background-color: var(--main-theme-color-1);
+}
+.main-nav-bar.open, .nav, .category-nav li.resp-tab-active, .other-carousel .owl-page.active, a.btn, button.btn, .siteForm input[type="submit"], .siteForm input[type="reset"], .siteForm input[type="button"], .siteForm button[type="button"], .siteForm button[type="file"], .btn-submit, a.actions, a.btn.red, button.red, .nav li .sub_menu .buttonNormal, .dash-nav li a .count, .price-red, .greyarea .grid_2 input[type="submit"], .coupons-nav h2, .cpn-box .coupon-code, .tabz li.active, .tabz li:hover, .tbl-email .actions a.active, .tbl-email .actions a.active:hover, .myaccount .listing-account-nav, .nav li li.hover .sub_menu, .burger li, .myaccount a.clickme span:before, .myaccount a.clickme span:after, .cl-effect-21 a:before, .cl-effect-21 a:after, .squareBoxes li .boxblue:hover, .review-progress li .pro-bar span.fill, .textcontainer .photoround, .testimonialTop:after, .blackbullets li a:hover:before, .category-count .item .num, .top-seller-list .seller:hover .pro-desc, .brands-list .item.link a:hover, .our-sale .category-box .item.red, .fixed-demo-btn, .cart-tbl .pro-image .tip, .red-links li a, .borderframe:before, .borderframe:after, .actions a.btn:hover, input.actions, button.actions, a.btn.blue:hover, a.added-btn:hover, .wallet-btn .btn, .liked-shop li a:hover, .main-category h2.resp-tab-active, .numberCircle, #back-top a, .fav li.sell_with_sitename a, .vertical_links li ul li a:hover:before, .text-wrapper, .discount-code form input[type="submit"], a.accordion_tabs.active, .toggle-list, .bg-fees, .section-faqs, .btn-action .action:hover, .radio .input-helper:after, .shop-header .shop-right .links-row a:hover, .shop-header .shop-right .links-row a.active, .seller-steps ul li.active:after, .navigations, .sublinks > li > ul > li a::before, .packages-box .box .box-inner, .packages-box .box .after-box h3, .grid-item {
+	background: var(--main-theme-color-1);
+}
+/*text color*/
+.category-nav li:hover, .category-nav li.active, .contact-here .contact span, .fav li.active a, .shortnav li a:hover, .shop-list .shop-item .price .price-new, .cmsContainer h5, .dash-nav li a:hover, .dash-nav li.active a, .cart-tbl .price, .red-txt, .groupbox .collectiontitle a, .groupbox .itemprice, .groupbox .itemname a:hover, .steps-links ul li a span.s-name, .product-name-red, .product-name-red a, .nav li .sub_menu .col li a:hover, .tbl-email tr.unread td .email-txt span, .collectionbox .collectiontitle, .leftLinks li a.selectedlink, .f-cell ul li a:hover, .nav li .sub_menu .col li.firstli a, .review-write a:hover, .review-write a.active, .sucessarea h3 strong, .textcontainer .testiname, .sitemapcontainer h3, .blackbullets li a:hover, a.view-more.red, .sale-category li a:hover, .steps-links ul li a span.s-no, .orders-list a.manage-order, .sectioncenter h3 span, .cmsContainer p a, .shop-list .shop-item:hover .price a, .actuall-price, .detailList .postedname a, a.arrow-link:hover, .all-address .repeat strong span, .all-address .repeat strong span, /*.shortnav li span,*/ .accordion-toggle.open, .accordion-toggle.open:hover, .vertical_links li ul li a:hover, .checkout-panel .address-short, .your-cart .head-name span, .bag-item .price, .order-summary ul li.wallet .pull_right, ul.tabs li a, ul.tabs li a:hover, ul.tabs li.active a, .listcontainer .listtitle a, .option-search a, .three-box .box h3, #paymenttab .resp-tabs-list li.resp-tab-active a, .amount-desc li.total, #paymenttab .resp-tabs-list li:hover a, .siteForm h4.heading, .seller-steps ul li.active a, .sublinks > li > ul > li a:hover {
+	color: var(--main-theme-color-1);
+}
+/*fill color*/
+.fav li.active a svg path, .dash-nav li a:hover i svg path, .dash-nav li a:hover i svg rect, .dash-nav li a:hover i svg ellipse, .dash-nav li a:hover i svg polygon, .dash-nav li a:hover i svg circle, .dash-nav li.active a i svg path, .dash-nav li.active a i svg rect, .dash-nav li.active a i svg ellipse, .dash-nav li.active a i svg polygon, .dash-nav li.active a i svg circle, .reviewlist li svg path, .rating li svg path, .review-write a:hover svg, .review-write a.active svg, a.arrow-link:hover .icn-svg svg path, .rating li.active svg path, #cart .svg-icn svg path, .testimonialTop h5 .svg-icn svg path, .sucessarea .svg-icn svg path, .total-stat .total-earning .count .svg-icn path, .search-triger a span.icon-search .svg-icn svg path, .cart a .svg-icn svg path, .pro-options-list li .remove .svg-icn svg path, .three-box .box .icn .svg-icn svg path, .features li .check .svg-icn svg path, .flag-type li .icn .svg-icn svg path, .flag-type li .icn .svg-icn svg path, .cart-wraper .controls a svg path, .adress-wrapper .controls a svg path, .btn-action .action .icon svg path, .btn-action .action .icon svg polygon, .btn-action .action .icon svg circle {
+	fill: var(--main-theme-color-1);
+}
+/*border color*/
+
+
+
+.alert-theme {
+	color: var(--main-theme-color-4);
+	background-color: var(--main-theme-color-1);
+	border-color: var(--main-theme-color-7);
+}
+
+
+
+.steps-links ul li span.tick, .from-wallet.active, .tbl-email .actions a.active, .tbl-email .actions a.active:hover, .collectionbox:hover, .leftLinks li a.selectedlink, .textcontainer .photoround img, .top-seller-list .seller .image, a.view-more.red, .top-seller-list .seller:hover, .steps-links ul li a span.s-no, .pro-options-list li.active, #paymenttab .resp-tabs-list li.resp-tab-active, #paymenttab .resp-tabs-list li:hover, .checkbox .input-helper:after, .radio .input-helper:after, .address-bar .address.selected, .btn-action .action, .address-bar .address:hover, .shop-header .shop-right .links-row a:hover, .shop-header .shop-right .links-row a.active, .packages-box .after-box a.btn {
+	border-color: var(--main-theme-color-1);
+}
+/*border-bottom color*/
+
+
+
+
+
+
+
+#slide-animation .resp-tabs-list li.resp-tab-active, .listButton.active:after {
+	border-bottom-color: var(--main-theme-color-1);
+}
+/*border-top color*/
+
+
+
+
+
+
+
+.tabz li.active:after, .main-category .resp-arrow, .listcontainer, .navigations > li .subnav__wrapper {
+	border-top-color: var(--main-theme-color-1);
+}
+.countpreview, .pro-options-list li.active {
+	background-color: var(--main-theme-color-1);
+}
+#cart:before {
+}
+.listButton.activebtn {
+}
+.shop-list .shop-item .overlay a.favourite.active {
+}
+.category-nav li.resp-tab-active {
+	color: #fff;
+}
+#slide-animation .resp-tabs-list li.resp-tab-active {
+	background: #fff;
+}
+#slide-animation .resp-tabs-list li, .product-thumb .lable, .yellow-bar, button.btn.blue:hover, .shop-list .shop-item .lable {
+	background: var(--main-theme-color-1);
+}
+.product-thumb .lable:after {
+	border-right-color: var(--main-theme-color-1);
+}
+.shop-list .shop-item .lable:after {
+	border-left-color: var(--main-theme-color-1);
+}
+a.btn.blue, .cart-button a.btn.blue, a.added-btn {
+	background: var(--main-theme-color-1);
+}
+ul.tabs li.active a::after, .checkout-panel.done .title-bar:before {
+	background-color: var(--main-theme-color-1);
+}
+.discount-code form {
+	border: solid 2px var(--main-theme-color-1);
+}
+.fixed-container .pull-left .note {
+	color: var(--main-theme-color-9);
+}
+
+
+
+/*mobile*/
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+a.menu-dashboard span, a.menu-dashboard span::before, a.menu-dashboard span:after, .myaccount a.clickme span, .main-category h2.resp-tab-active, .nav > li.hover > .sub_menu, .nav li li.hover .sub_menu, .nav li .sub_menu .buttonNormal:hover, .cart a span, .navpanel {
+	background: var(--main-theme-color-1);
+}
+.nav li .sub_menu .col li.firstli a, .main-category h2.resp-tab-active {
+	color: #fff;
+}
+.main-category .resp-arrow {
+	border-top-color: var(--main-theme-color-1);
+}
+.search-triger a span.icon-search {
+}
+.cart a {
+}
+}
+
+
+
+/*tablet*/
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+} /*one*/ {
+ background: var(--main-theme-color-1);
+}
+/*two*/
+.btn.secondary-btn, .smallthumbs li .boxblue, .packages-box .box.two .box-inner, .packages-box .box.two .after-box h3 {
+	background: var(--main-theme-color-2);
+}
+.shop-list .shop-item .overlay a.link.active .svg-icn svg path {
+	fill: var(--main-theme-color-1);
+}
+.packages-box .box.two .after-box a.btn {
+	border-color: var(--main-theme-color-2);
+}
+/*three*/
+
+
+
+.packages-box .box.three .box-inner, .packages-box .box.three .after-box h3 {
+	fill: var(--main-theme-color-3);
+}
+.packages-box .box.three .box-inner, .packages-box .box.three .after-box h3 {
+	background: var(--main-theme-color-3);
+}
+.packages-box .box.three .after-box a.btn {
+	border-color: var(--main-theme-color-3);
+}
+/*
+
+.shop-list .shop-item .price .price-new, .shop-list .shop-item .caption .brand-name a {
+
+	color: var(--main-theme-color-3);
+
+}*/
+
+/*four*/
+
+
+
+.nav > li > a, .navigations > li > a {
+	color: var(--main-theme-color-4);
+}
+/*five*/
+
+
+
+.btn.secondary-btn {
+	color: var(--main-theme-color-5);
+}
+/*six*/
+
+
+
+#top {
+
+	background: var(--main-theme-color-6);
+
+}
+
+/*seven*/
+.sign-up-form, .gray-side {
+	background: var(--main-theme-color-7);
+}
+/*eight*/
+.nav > li > a:hover, .navigations > li > a:hover {
+	color: var(--main-theme-color-8);
+}
+ @media only screen and (max-width: 1024px) {
+.navpanel {
+	background: var(--main-theme-color-1);
+}
+}

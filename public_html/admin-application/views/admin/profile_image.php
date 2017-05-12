@@ -1,0 +1,1 @@
+<img src="<?php echo Utilities::generateUrl('image','user', array($admin_image,"LARGE"),CONF_WEBROOT_URL); ?>" alt="">

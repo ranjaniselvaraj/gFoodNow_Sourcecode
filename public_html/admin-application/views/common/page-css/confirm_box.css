@@ -1,0 +1,14 @@
+.themeBtn {
+    background: #f89839 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px 30px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: top;
+}

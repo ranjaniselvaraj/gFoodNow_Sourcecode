@@ -1,0 +1,171 @@
+ul.errorlist {
+	color: #f00;
+	margin: 0px;
+	padding: 0px;
+	clear: both !important;
+	display: block;
+	list-style: none;
+	font-style: italic;/*position:absolute;*/
+}
+ul.errorlist li, ul.errorlist li a, ul.errorlist li a:hover {
+	color: #f00;
+	text-align: left;
+	float: left;
+	clear: both;
+	cursor: text;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0px !important;
+	padding: 0px !important;
+	background: none !important;
+	font-size: 13px;
+	display: block;
+	clear: both;
+} /* form validation error in case of summary */
+ul.errorlist li::before {
+	background: none;
+}
+input.error, select.error, textarea.error {
+	border: 1px dotted #f00; /*float:left;*/
+} /* form validation error fields */
+.error input {
+	border: 1px dotted red;
+}
+.spn_must_field {
+	color: #f00 !important;
+	padding: 0px 3px;
+}
+.div_error_dotted {
+	border: 1px dotted red;
+	margin: 2px 0px;
+	padding: 4px;
+	width: 100%;
+	background: #E4E4E4;
+}
+#prod_stock_span {
+	margin: 2px;
+	padding: 2px;
+	color: #CC6600;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.div_success_dotted {
+	border: 1px dotted #009933;
+}
+.div_msg, .div_error {
+	padding: 10px;
+	padding-right: 40px;
+	margin: 0;
+	color: #fff;
+}
+.div_msg {
+	background: #00b6ad;
+}
+.div_error {
+	background: #f35f5f;
+}
+.div_error label {
+	display: inline;
+}
+.tableform br {
+	display: none;
+}
+/* alerts */
+.system_message {
+	width: 100%;
+	margin: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 100000;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 0;
+	color: #fff;
+	text-transform: uppercase;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+.system_message .closeMsg {
+	background: url(../images/retina/close.svg) no-repeat center;
+	background-size: cover;
+	border: none;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -10px;
+	text-align: center;
+	line-height: 15px;
+	cursor: pointer;
+	opacity: 0.8;
+}
+.system_message .closeMsg:hover {
+	opacity: 1;
+}
+.system_message a {
+	color: #fff;
+	text-decoration: underline;
+}
+.system_message ul {
+	margin: 0;
+}
+.system_message ul li {
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: none;
+}
+.alert {
+	color:#fff;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	position: relative;
+	padding-right: 32px;
+}
+.alert .close {
+	text-indent: -99999px;
+	background: url(../images/retina/close.svg) no-repeat center;
+	background-size: cover;
+	border: none;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -10px;
+	text-align: center;
+	line-height: 15px;
+	cursor: pointer;
+	opacity: 0.8;
+}
+.alert .close:hover {
+	opacity: 1;
+}
+.alert a {
+	color: #fff;
+	text-decoration: underline;
+}
+.alert-success {
+	background-color: #00b6ad;
+}
+.alert-info {
+	background-color: #02b4d1;
+}
+.alert-warning {
+	background-color: #f3c532;
+}
+.alert-danger {
+	background-color: #f35f5f;
+}
+.alert-inverse {
+	background: #1a1a1a;
+	color: #fff;
+}
